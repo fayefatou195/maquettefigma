@@ -1,0 +1,408 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Roboto:wght@900&display=swap');
+
+*{
+    margin: 0; 
+    padding: 0;
+    text-decoration: none;
+    box-sizing:border-box ;
+ }
+
+body{
+    margin: 0; 
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+}
+header{
+
+padding: 10px 0;
+  position: relative;
+
+}
+.container-fluid{
+   border-bottom: 2px solid #f5f2f2;
+  }
+  .nav-pills{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0px;
+  }
+.nav-link {
+    width: 90px;
+    color: #606060;
+    font-size: 14px;
+    padding: 10px;
+  
+ }
+#active{
+background-color: #007896;
+  }
+
+  @media (max-width:768px) {
+    nav .nav-pills{
+      display: block;
+      text-align: center;
+      padding: 0;
+}
+  }
+   #bars-menu {
+      position: relative;
+      margin-right:-50px;
+      z-index: 50;
+   
+}
+ #logo{
+  margin-top:-20px;
+  text-align: center;
+ }   
+ 
+.section2{
+  margin-top: 80px;  
+}
+.card-title{
+ 
+  font-size: 48px;
+}
+.card-text{
+   
+    font-size: 14px;
+    color: #a6a6a6;
+}
+.btn {
+    width: 240px;
+    background-color: #007896;
+   font-size: 14px;
+   padding: 15px;
+}
+#im1{
+ margin-left: -140px;
+}
+#im2{
+margin-top: -484px;
+margin-right: 20px;
+}
+#im3{
+  margin-top: -484px;
+  margin-right: 100px;
+}
+.text-center {
+  margin-top: -200px;
+  margin-right: 250px;
+}
+.groupe{
+  margin-top: 100px;
+  
+}   
+.img-fluid{
+ padding:20px ;
+  padding-left: 100px;
+  padding-right:160px;
+ }
+ #titre-prixe{
+  font-size: 18px;
+ }
+ .section3{
+  margin-top: 100px;
+ }
+  
+ #titre-booster{
+  width: 300px;
+  color:#7d7e7e ;
+  font-size: 23px;
+  margin-top: 30px;
+
+ }
+ .couleur-booter{
+  font-size: 30px;
+  background: -webkit-linear-gradient(rgb(53, 5, 92), rgb(230, 159, 52));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.card-subtitle{
+  width: 330px;
+  color:#cecfd1 ;
+  font-size: 14px;
+  margin-top: 30px;
+}
+#text{
+  width: 375px;
+  color:#7c7a7a;
+  font-size:15px ;
+  margin-top: 20px;
+}
+.savoir-plus{
+  color: #007896;
+}
+.fa-solid{
+  margin-left: 18px;
+  font-weight: 100px;
+  color: #007896;
+  padding: 5px;
+}
+.card-img-top{
+  width: 30px;
+}
+
+.card{
+ border: 2px solid blue;
+ border-image:linear-gradient(to right, #41295a, #c2951b);
+ border-image-slice: 1;
+}
+#text1{
+  
+  font-size: 11px;
+  width: 230px;
+}
+#icon{
+  color: white;
+  background-color: #25136d;
+}
+/*******section4******/
+.section4{
+ margin-top: 130px;
+}
+#image-section4{
+  width: 90px;
+  margin-left: 200px;
+
+}
+.title-section4{
+  margin-left:100px ;
+  color: #777575;
+  font-size: 20px;
+  word-spacing: 2px;
+}
+.titre-section4{
+  margin-left: 180px;
+  font-size: 30px;
+  background: -webkit-linear-gradient(rgb(53, 7, 88), rgb(230, 159, 52));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#text-section4{
+  width: 380px;
+}
+.section5{
+  margin-top: 50px;
+}
+.section6{
+  margin-top: 90px;
+}
+#image-section6{
+  width: 90px;
+}
+.titre-section6{
+
+  font-size: 30px;
+  background: -webkit-linear-gradient(rgb(42, 5, 70), rgb(194, 130, 34));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#section7{
+margin-top: 100px;
+background-color: #007896;
+height: 560px;
+}
+.title-section7{
+  color: white;
+}
+
+#col7{
+  margin-top: 140px;
+}
+#image2-section7{
+  width: 60px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+#cadre1-section7{
+  margin-bottom: -200px;
+  margin-left: 50px;
+  height: 170px;
+  padding-right: 160px;
+  transform: rotate(-5deg);
+  }
+  #cadre2-section7{
+  height: 170px;
+  padding-right: 160px;
+  transform: rotate(-6deg);
+  margin-top: 30px;
+  }
+  #cadre3-section7{
+    margin-left: 100px;
+    height: 170px;
+    padding-right: 160px;
+    transform: rotate(-7deg);
+   
+    }
+#para-section7{
+  font-size: 12px;
+  width: 260px;
+  margin-right: 100px;
+  word-spacing: 5px;
+}
+#nom-section7{
+  width: 300px;
+  color: #007896;
+  font-size: 14px;
+}
+
+#section8 {
+  margin-top: 170px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 28em;
+ 
+}
+#article{
+  margin-left: 140px;
+}
+#text-section8{
+  margin-left: 50px;
+  word-spacing: 3px;
+}
+#section9{
+  margin-top: 100px;
+}
+#image-section9{
+width: 300px;
+}
+#section10{
+  margin-top: 140px;
+}
+#titre-section10{
+ 
+  font-weight: 10px;
+  font-size: 22px;
+  word-spacing: 2px;
+  color: rgb(85, 82, 82);
+}
+#text-section10{
+  font-size: 16px;
+  color: rgb(85, 82, 82);
+}
+#icon-section10{
+  font-size: 35px;
+  width:10em;
+  color: #007896;
+ 
+}
+#titre2-section10{
+  margin-left: -120px;
+ 
+}
+
+#sociaux{
+  margin-top: -25px;
+}
+.fa-brands{
+padding: 5px;
+color: #007896;
+}
+.section11{
+  margin-top: 80px;
+ }
+#cadre-section11{
+  height: 365px;
+}
+#trait-section11{
+  margin-top: 50px;
+  margin-left: 500px;
+  width: 80px;
+  background-color: #007896;
+}
+#text-section11{
+  margin-left: 290px;
+  margin-top: -65px;
+}
+#text1-section11{
+  margin-left: 290px;
+  width: 450px;
+  font-size: 16px;
+}
+#exampleFormControlInput1{
+  width: 420px;
+  padding: 12px;
+  margin-left: 210px;
+}
+#bouton-section11{
+  margin-left: 640px;
+  margin-top: -75px;
+  width: 150px;
+}
+#image-section11{
+  width: 250px;
+  margin-top: -88px;
+  margin-left:-30px;
+}
+.child{
+  width: 273px;
+  height: 150px;
+  background: #007896;
+  padding: 10px;
+  margin-left:810px;
+  margin-top: -240px;
+  border-radius: 1px 20px 1px 350px;
+}
+#image1-section11{
+  width: 520px;
+  margin-top: -40px;
+  margin-right: -17px;
+ }
+
+#section12{
+  margin-top: 80px;
+ background: #ebebeb;
+height: 350px;
+}
+#text-section12{
+  width: 320px;
+}
+
+#exampleFormControlInput12{
+  width: 290px;
+  padding: 10px;
+}
+#bouton-section12{
+  width: 140px;
+  margin-left: 290px;
+  margin-top:-180px;
+  padding: 16px;
+  background-color: #f6be56;
+}
+#menu-section12{
+  color: #007896;
+}
+#para-section12{
+  margin-top: -50px;
+  font-size: 11px;
+  width: 210px;
+}
+#para2-section12{
+  font-size: 11px;
+  width: 210px;
+}
+.footer{
+  height: 1px;
+  background-color: #000;
+  border: none;
+}
+#section13{
+  margin-top: -10px;
+  height: 100px;
+  background: #ebebeb;
+}
+#lien{
+ font-size: 13px;
+ padding: 15px;
+}
+#copyrigth{
+  margin-left: 350px;
+  font-size: 13px;
+  width: 200px;
+}
+
+
